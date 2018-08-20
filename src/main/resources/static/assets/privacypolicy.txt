@@ -1,0 +1,7 @@
+When you make an account on the Service ("Nothing Domains"), you agree to let Us ("Nothing Domains") store:
+
+- Your username, email, and a salted BCrypt cypher of your password.
+- All content you upload to the Service through the use of our online interface or API.
+
+
+The Service also takes advantage of cookies, and by using the Service you agree to let us store cookies in your browser.

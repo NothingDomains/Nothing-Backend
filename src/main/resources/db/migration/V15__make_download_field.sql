@@ -1,0 +1,11 @@
+LOCK TABLES uploads WRITE;
+ALTER TABLE uploads
+  ADD `filename` VARCHAR(64) DEFAULT NULL;
+ALTER TABLE uploads
+  ADD `download` BOOL DEFAULT FALSE;
+UPDATE uploads
+SET filename = url
+WHERE filename IS NULL;
+ALTER TABLE uploads
+  MODIFY filename VARCHAR(64) NOT NULL DEFAULT '';
+UNLOCK TABLES;

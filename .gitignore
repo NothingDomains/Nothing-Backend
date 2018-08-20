@@ -1,0 +1,12 @@
+.idea/
+*.iml
+*.class
+build/
+target/
+*core
+*history
+tags
+*.swp
+settings.properties
+/freshen-data
+/data*

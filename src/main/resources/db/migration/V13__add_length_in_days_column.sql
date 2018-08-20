@@ -1,0 +1,2 @@
+ALTER TABLE premium
+  ADD `lengthInDays` INTEGER(8) DEFAULT 30;
